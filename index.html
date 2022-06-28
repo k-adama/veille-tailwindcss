@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <nav id="sidebar">
+            <ol>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#front">Qu’est-ce que le Front-End ?</a></li>
+                <li><a href="#web"> Frameworks front-end Web</a></li>
+                <ol style="list-style-type: lower-alpha;">
+                    <li><a href="#tailwind">TAILWINDCSS</a></li>
+                    <li><a href="#framew">FRAMEWORK</a></li>
+                    <li><a href="#first">UTILITY-FIRST</a></li>
+                </ol>
+                <li><a href="#utilisation"> Exemple d'utilisation</a></li>
+                <li><a href="#installation"> Comment installer Tailwind CSS</a></li>
+            </ol>
+        </nav>
+
+        <div id="content">
+            <section>
+                <h1>TECHNOLOGIES FRONT-END</h1> WEB ET MOBILE
+                <h3 id="introduction" style="color: red; font-size: 30px;">Introduction</h3>
+                <p>
+                    Lors du développement d’une application mobile ou web, le côté client ou front-end revêt une grande
+                    importance car l’utilisateur n’en fait qu’une expérience. Par conséquent, pour améliorer
+                    l’impression de votre application devant un utilisateur, un développeur ne peut pas faire de
+                    compromis sur la qualité du développement front-end. Pour offrir une excellente expérience
+                    utilisateur côté client, les langages front-end jouent un rôle important.
+
+                </p>
+
+                <img src="image/frontimage.png" alt="">
+                <div id="front">
+                    <p style="color: red; font-size: 30px;"> Qu’est-ce que le Front-End ?</p>
+                    <p>
+                        Le front-end c’est la partie du code qui est reçue par le client. Je rappelle que le client
+                        c’est
+                        notre navigateur Web. Il s’agit finalement des éléments du site web que <br> l’on aperçoit à
+                        l’écran et
+                        avec lesquels on pourra interagir. En d’autres termes, tout ce que l’utilisateur d’une
+                        application
+                        voit est le front-end, comme les menus de navigation, le modèle d’application et les boutons,
+                        etc.
+
+                    </p>
+                </div>
+
+                <div id="web">
+                    <h1>FRONT-END WEB</h1>
+                    <p id="tailwind" style="color: red; font-size: 30px;">Qu'est ce que TailwindCSS ?</p>
+
+
+                    <p> Tailwind CSS est un framework utility-first CSS (feuilles de style en cascade) avec des classes
+                        prédéfinies que vous pouvez utiliser pour construire et concevoir des pages web directement dans
+                        votre balisage. Il vous permet d’écrire du CSS dans votre HTML sous la forme de classes
+                        prédéfinies.
+                    </p>
+
+                    <img src="image/1.png" alt="">
+                    <p id="framew" style="color: red; font-size: 30px;">Qu'est ce qu'un framework ?</p>
+                    <p>
+                        un framework est un outil qui fournit des composants réutilisables et prêts à l’emploi
+                        construits à partir des fonctionnalités d’un outil déjà existant. L’objectif général de la
+                        création de frameworks est d’augmenter la vitesse de développement en faisant moins de travail.
+                    </p>
+
+                    <p id="first" style="color: red; font-size: 30px;">Qu’est-ce qu’un framework CSS utility-first ?</p>
+                    <p>
+                        Lorsque nous disons « utility-first CSS », nous faisons référence à des classes dans notre
+                        balisage (HTML) avec des fonctionnalités prédéfinies. Cela implique que vous n’avez qu’à écrire
+                        une classe à laquelle sont attachés des styles prédéfinis, et ces styles seront appliqués à
+                        l’élément.
+                    </p>
+
+                    <p id="utilisation" style="color: red; font-size: 30px;"> Utilisation</p>
+                    <p>
+                        Nous allons vous montrer un exemple. Ici, nous allons créer un bouton avec des coins arrondis et
+                        un texte qui dit « Clic me » Voici à quoi ressemblera le bouton : <br><br>
+                        <img src="image/bt.png" alt=""> <br><br>
+
+                        Nous allons d’abord faire cela en utilisant le CSS vanilla, puis en utilisant les classes
+                        utilitaires disponibles dans le CSS Tailwind.
+                    </p>
+
+                    <h2><strong>AVEC CSS </strong></h2>
+                    <img src="image/2.png" alt=""> <br>
+
+                    <p>Nous avons donné aux balises de bouton la classe btn, qui sera stylisée à l’aide d’une feuille de
+                        style externe. C’est-à-dire :</p><br><br>
+
+                    <img src="image/3.png" alt="">
+                    <br><br>
+
+                    <strong>Avec Tailwind CSS :</strong> <br><br>
+                    <img src="image/4.png" alt="">
+                    <br>
+
+                    <p id="installation" style="color: red; font-size: 30px;">Installation</p>
+                    <p>
+                        Il existe deux méthodes pour installer Tailwind CSS.
+
+                        La première consiste à télécharger les fichiers ou utiliser un cdn. Cette méthode est certes
+                        rapide, mais n’est que peu recommandé, car vous chargez l’intégralité du framework (ce qui le
+                        rend plus lourd), sans pouvoir le personnaliser. Dans ce cas, vous vous limitez vous-même.
+
+                        Voyons plutôt la bonne pratique.
+                    </p>
+                    <dl>
+                        <dt> <strong>Préparer son environnement pour accueillir Tailwind CSS : </strong> </dt> <br>
+                        <dd>
+                            Nous allons utiliser <span style="color: red;">NPM</span>. Veillez à bien l’installer sur
+                            votre machine.
+                        </dd>
+                    </dl>
+                    <p>
+                        Depuis le terminal, vous devez vous rendre à la racine de votre projet et exécuter une commande
+                        npm :
+                        <br><br>
+                        <img src="image/5.png" alt="">
+                        <br><br>
+
+                        Maintenant, créez un fichier CSS. Il n’est pas à inclure dans le HTML. À l’intérieur de celui-ci
+                        nous insérer du code de base pour appeler Tailwind :
+                        <br><br>
+                        <img src="image/6.png" alt="">
+                        <br><br>
+
+                        Enfin, nous allons créer un fichier <br>
+                        <img src="image/7.png" alt="">.
+                        <br> Ce fichier permettra de configurer Tailwind pour votre projet.
+
+                    </p>
+                    <p>
+
+                        À présent, nous allons compiler le code pour rendre Tailwind utilisable.
+                        Toujours depuis la racine de votre projet, exécutez la commande suivante depuis le terminal :
+                        <br><br>
+                        <img src="image/8.png" alt="">
+                        <br><br>
+                        Le fichier source.css est celui que nous avons créé plus haut. Le fichier ouput.css est le nom
+                        que vous souhaitez donner au fichier CSS généré par la compilation, qui, lui, sera à insérer
+                        dans le HTML. Notez que ces deux fichiers peuvent porter le nom que vous souhaitez.
+
+                        Enfin, insérez le fichier CSS dans le HTML.
+                        <br><br>
+                        <img src="image/9.png" alt="">
+                    </p>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
